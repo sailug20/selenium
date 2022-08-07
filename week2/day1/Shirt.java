@@ -1,35 +1,28 @@
 package august2.week2.day1;
 
-public class Shirt {
-
-   
-   
-
-	public void color()
-       {
-	         System.out.println("shirtcolor");
-       }
-
+public class Shirt{
+       
+	  
 
 	public static void main(String[] args) 
 	{
-	String shirtcolor = "Red";
+	String shirtcolor == "Purple";
 	
 	
 		// TODO Auto-generated method   stub
-if ( shirtcolor=  " Red") 
+if ( shirtcolor== " Red") 
    
 		{
-	System.out.println("Shirtcolor is Red");
-    }
+	System.out.println("Shirtcolor is"  +shirtcolor);
+                 }
 			
-else if(shirtcolor = Green)
+else if(shirtcolor ==" Green")
      {
-	   System.out.println("Shirtcolor is Green");
+	   System.out.println("Shirtcolor is" +shirtcolor);
      }
-else if(shirtcolor = White)
+else if(shirtcolor == "White")
      {
-       System.out.println("Shirtcolor is White");
+       System.out.println("Shirtcolor is " +shirtcolor);
      }
 else
     {
