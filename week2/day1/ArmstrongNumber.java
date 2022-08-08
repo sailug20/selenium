@@ -25,7 +25,7 @@ public class ArmstrongNumber {
 			x = x/10;
 			n = n+ (r*r*r);
 		}
-		if (t==cube)
+		if (t==n)
 		{
 			System.out.println("Given number is Armstrong number");
 		}
